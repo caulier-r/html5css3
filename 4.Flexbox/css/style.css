@@ -1,0 +1,27 @@
+#box{
+    height: 100px;
+    width: 100px;
+    background: blue;
+}
+#parent{
+    height: 500px;
+    width: 500px;
+    /*background: yellow;*/
+    /*background: #5f4312;*/ /*voor een exact kleur*/
+    /*background: rgb(0,180,20);*/
+    /*background: rgba(0,100,0,0.5);*/
+    /*background: hsl(120,100%,50%);*/
+    /*background: linear-gradient(90deg,red,yellow);*/
+    /*background: radial-gradient(circle,blue,purple);*/
+    background: url('../img/passenger-ship-8555025_1280.jpg');
+    position: relative;
+}
+#child{
+    height: 100px;
+    width: 100px;
+    background: linear-gradient(90deg,yellow,red);
+    position: absolute;
+    right: 200px;
+    bottom: 200px;
+
+}
